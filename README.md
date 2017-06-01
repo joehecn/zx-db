@@ -2,7 +2,7 @@
 
 ```
 // pro
-docker run -d -v /"$PWD"/configdb:/data/configdb --name mongo mongo:latest
+docker run -d -v /"$PWD"/configdb:/data/configdb --name zx-db mongo:latest
 
 chmod +x create_db.sh
 chmod +x ./configdb/new_db.sh
